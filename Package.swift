@@ -5,6 +5,21 @@ import PackageDescription
 
 let package = Package(
     name: "ViewPortObserver",
+    platforms: [
+        SupportedPlatform.iOS(
+            SupportedPlatform.IOSVersion.v13
+        ),
+        SupportedPlatform.macOS(.v10_15),
+        SupportedPlatform.watchOS(
+            SupportedPlatform.WatchOSVersion.v9
+        ),
+        SupportedPlatform.visionOS(
+            SupportedPlatform.VisionOSVersion.v1
+        ),
+        SupportedPlatform.tvOS(
+            SupportedPlatform.TVOSVersion.v12
+        )
+    ],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
