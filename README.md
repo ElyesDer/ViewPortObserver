@@ -2,6 +2,14 @@
 
 `ViewPortObserver` is a custom SwiftUI modifier packaged into a Swift Package Manager library that allows developers to observe the visibility of a view component on the screen. By leveraging this modifier, you can track when a view enters or exits the visible screen area, helping to trigger events based on a view's lifecycle.
 
+## Preview
+
+<table class="tg"><thead>
+  <tr>
+    <td class="tg-0lax"><img src="https://github.com/ElyesDer/ViewPortObserver/blob/main/Screenshots/preview_1.gif" width="500"/></td>
+  </tr></thead>
+</table>
+
 ## Features
 
 - **Track View Visibility:** Detect when a view appears or disappears from the screen viewport.
